@@ -9,7 +9,7 @@ addButton.addEventListener('click', function(){
     const button = document.createElement('button')
     button.textContent = 'Delete'
     button.addEventListener('click', function(){
-         newTask.remove()
+         newTask.remove(); 
     })
     newTask.appendChild(button)
     tasksList.appendChild(newTask)
